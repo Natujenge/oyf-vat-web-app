@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VAT Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="container">
+
+    <div class="logo"> 
+        <img src="resources/natujenge.svg" alt="Natujenge"/> 
+    </div>
+
+    <div class="main">
+
+        <div class="form">
+
+            <h1>VAT Calculator</h1>
+
+            <form>
+                <label for="amount">Amount:</label> <br/>
+                <input type="number" id="amount" name="amount" value="100" /> <br/><br/>
+    
+                <label for="rate">rate:</label> <br/>
+                <input type="number" id="rate" name="rate" value="16" /> <br/><br/>
+    
+                <input type="button" id="calculate" onclick="calculateRemote()" class="btn-primary" name="calculate" value="Calculate">
+    
+            </form>
+
+        </div>
+
+        <div id="result">
+            <!-- we will use this to print the final answer -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Test page by Natujenge team! Version: Update2
+        </p>
+
+    </div>
+
+    <script src="js/main.js">
+        //copied here..
+    </script>
+
+</body>
+</html>
